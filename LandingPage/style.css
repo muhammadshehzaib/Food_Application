@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.landing-page {
+    margin: 20px 190px 5px;
+}
+
+/* Logo Section places here  */
+
+.logo-section {
+    display: flex;
+}
+
+.logo-img {
+    width: 210px;
+    height: 37px;
+    margin-top: 4px;
+}
+
+.logo-data-section {
+    display: flex;
+    margin-top: 10px;
+}
+
+.deliver {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.current-location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.location {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.address {
+    padding-right: 50px
+}
+
+
+.search-food {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    padding-right: 5px;
+}
+
+.search-login {
+    display: flex;
+    margin-top: 5px;
+}
+
+.login-btn {
+    margin-top: 0;
+    margin-left: 50px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+    border-radius: 8px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.login-svg {
+    padding: 0 10px;
+}
+
+.login-txt {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFB800;
+}
+
+/* header section starts here */
+.header-section {
+    background: url(./images/background-banner.png);
+    width: 1535px;
+    height: 620px;
+    margin: 18px 0;
+    padding: 132px 220px 15px;
+    display: flex;
+}
+
+.main-header-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01), 0px 27px 82px rgba(255, 174, 0, 0.28);
+    padding-bottom: 10px;
+
+}
+
+.secondary-header-heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #504F4F;
+}
+
+.header-section-img img {
+    width: 604px;
+    height: 505px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    padding-bottom: 15px;
+}
+
+.header-section-findfood {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 150px;
+    filter: drop-shadow(0px 5px 10px rgba(255, 174, 0, 0.26)) drop-shadow(0px 20px 40px rgba(255, 174, 0, 0.29));
+    border-radius: 16px;
+    filter: drop-shadow(0px 5px 10px rgba(255, 174, 0, 0.26)) drop-shadow(0px 20px 40px rgba(255, 174, 0, 0.29));
+    border-radius: 16px;
+
+}
+
+.delivery-btn {
+    background: rgba(241, 114, 40, 0.1);
+    border-radius: 8px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #F17228;
+    padding: 10px 24px;
+    margin: 18px 24px;
+    border: #FFFFFF;
+}
+
+.pickup-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #757575;
+    padding: 10px 24px;
+    border: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.header-section-input {
+    width: 70%;
+    height: 40px;
+    padding: 5px 10px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    border: #FFFFFF;
+}
+
+.header-section-input[type=text] {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #9E9E9E;
+    padding-left: 30px;
+}
+
+.header-section-input-location {
+    position: absolute;
+
+}
+
+.header-section-searchfood {
+    margin: 18px 24px;
+}
+
+.header-section-input-location {
+    padding: 7px;
+}
+
+.find-food-btn {
+    margin-left: 10px;
+    padding: 15px 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    border: #FFFFFF;
+
+}
+
+.find-food-svg {
+    padding-right: 9px;
+
+}
+
+/* food items section starts here */
+.food-items-section {
+    margin: 80px 140px;
+}
+
+.food-item-imgs {
+    display: flex;
+}
+
+.food-item-img img {
+    width: 300px;
+    height: 250px;
+    padding: 0 5px;
+}
+
+.food-item-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.food-item-days {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F17228;
+    display: inline-block;
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+/* <!-- icons items section starts here --> */
+.icons-items-section {
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+
+.icons-items-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112%;
+    text-align: center;
+    color: #F17228;
+}
+
+.icons-items {
+    display: flex;
+    margin: 40px 150px;
+    text-align: center;
+
+}
+
+.icons-item {
+    padding: 15px 30px;
+}
+
+.icons-items-heading {
+    padding-top: 40px;
+}
+
+.icons-item-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #434343;
+    text-align: center;
+
+}
+
+.icons-item-paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #9E9E9E;
+}
+
+/* Popular heading section starts here */
+.popular-items-heading {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112%;
+    text-align: center;
+    color: #212121;
+}
+
+.popular-items {
+    margin: 80px 140px;
+    display: flex;
+
+}
+
+.popular-item {
+    padding-left: 15px;
+}
+
+.popular-item img {
+    width: 225px;
+    height: 225px;
+}
+
+.popular-item-name {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #424242;
+    margin-top: 5px;
+
+}
+
+.popular-item-location {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFB30E;
+    margin-top: 5px;
+
+}
+
+.popular-item-icon {
+    padding-top: 6px;
+}
+
+.popular-item-price {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #212121;
+    margin-top: 5px;
+
+}
+
+.popular-item-btn {
+    margin-top: 10px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F17228;
+    padding: 10px 70px;
+    border-radius: 8px;
+    border: #F5F5F5;
+}
+
+/* feature restaurants section */
+.featured-restaurants-section {
+    margin: 80px 140px;
+
+}
+
+.featured-restaurants-heading {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112%;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.featured-restaurants-img {
+    width: 280px;
+    height: 230px;
+}
+
+.featured-restaurants-items1 {
+    display: flex;
+}
+
+.featured-restaurants-item {
+    padding: 0 10px;
+}
+
+.featured-restaurants-data {
+    display: flex;
+    margin-top: 18px;
+}
+
+.featured-restaurants-logo {
+    display: flex;
+}
+
+.featured-restaurants-logo {
+    padding-right: 24px;
+}
+
+.featured-restaurants-imformation {
+    margin-top: 10px;
+}
+
+.featured-restaurants-imformation-heading1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #424242;
+    padding-bottom: 5px;
+}
+
+.featured-restaurants-imformation-heading2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFB30E;
+}
+
+.featured-restaurants-open-tomorrow {
+    margin-top: 32px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F17228;
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 16px;
+    border: #F5F5F5;
+    padding: 8px 16px;
+}
+
+.featured-restaurants-open-now {
+    margin-top: 32px;
+    padding: 8px 16px;
+    background: rgba(121, 185, 60, 0.2);
+    border-radius: 16px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #79B93C;
+    border: #F5F5F5;
+}
+
+.featured-restaurants-items2 {
+    margin-top: 64px;
+}
+
+/* Search by food section */
+.search-food-section {
+    background: #FEFAF1;
+    padding: 80px 140px;
+}
+
+.search-foods {
+    display: flex;
+    gap: 15px;
+}
+
+.search-food-section h4 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112%;
+    color: #212121;
+    margin-bottom: 80px;
+}
+
+
+.search-food img {
+    width: 180px;
+    height: 180px;
+}
+
+.search-food h6 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #424242;
+    text-align: center;
+}
+
+.discounts-tracing-delievery {
+    width: 1520px;
+    height: 456px;
+    background: #FEEFD0;
+    padding: 130px 250px;
+}
+
+.discounts-tracing-delievery-images {
+    width: 1050px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01), 0px 27px 82px rgba(255, 174, 0, 0.28);
+    border-radius: 46px;
+    padding: 35px;
+    display: flex;
+    gap: 50px;
+}
+
+.install-app-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    width: 1520px;
+    height: 589px;
+    align-items: center;
+    background: #FEEFD0;
+    padding: 0 150px;
+}
+
+
+
+.install-app-section-text h2 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 106%;
+    color: #FFB800;
+    padding-bottom: 10px;
+}
+
+.install-app-section-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #827E7E;
+    padding-bottom: 10px;
+
+}
+
+.install-app-section-data-img {
+    display: flex;
+    gap: 1px;
+    width: 150px;
+    height: 100px;
+}
