@@ -13,3 +13,4 @@ To use the application, simply download or clone the repository and open the ind
 Credits
 The images used in this application are from Unsplash and the recipes are from various sources on the internet. The design and code were created by ME.
 
+![127 0 0 1_5500_index html (1)](https://user-images.githubusercontent.com/98905825/222708501-2b43f3c1-87b0-45fd-bc48-9918c6f9fb66.jpg)
