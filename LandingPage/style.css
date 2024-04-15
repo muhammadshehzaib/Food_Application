@@ -413,6 +413,8 @@ img {
     padding-bottom: 80px;
 }
 
+
+
 @media screen and (max-width:550px) {
     .icons-item img {}
 }
@@ -422,9 +424,13 @@ img {
         flex-wrap: wrap;
     }
 
-    .icons-items>* {
-        width: 50%;
-    }
+
+}
+
+.icons-item:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -433,9 +439,6 @@ img {
     height: auto;
 }
 
-.icons-item:nth-child(4) {
-    padding-top: 25px;
-}
 
 
 .icons-item-heading {
