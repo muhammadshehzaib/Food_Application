@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "name": "my-static-site",
+    "public": true,
+    "builds": [
+      {
+        "src": "index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/assets/(.*)",
+        "dest": "/assets/$1"
+      },
+      {
+        "src": "/images/(.*)",
+        "dest": "/images/$1"
+      },
+      {
+        "src": "/style.css",
+        "dest": "/style.css"
+      }
+    ]
+  }
+  
